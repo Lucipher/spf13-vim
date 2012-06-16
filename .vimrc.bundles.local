@@ -1,1 +1,17 @@
-let g:spf13_bundle_groups=['general', 'programming', 'ruby', 'javascript', 'html', 'misc']
+let g:spf13_bundle_groups=['programming', 'ruby', 'javascript', 'html', 'misc']
+
+" Custom 'General'
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'tpope/vim-surround'
+    Bundle 'AutoClose'
+    Bundle 'kien/ctrlp.vim'
+    Bundle 'vim-scripts/sessionman.vim'
+    Bundle 'matchit.zip'
+    Bundle 'Lokaltog/vim-powerline'
+    Bundle 'Lokaltog/vim-easymotion'
+    Bundle 'jistr/vim-nerdtree-tabs'
+    Bundle 'corntrace/bufexplorer'
+
+    " Zenburn is a low-contrast color scheme for Vim. It's easy for your eyes
+    " and designed to keep you in the zone for long programming sessions. 
+    Bundle 'jnurmine/Zenburn'

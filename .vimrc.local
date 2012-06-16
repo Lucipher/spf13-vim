@@ -1,0 +1,14 @@
+if !has('gui_running')
+    set t_Co=256
+endif
+colorscheme zenburn
+
+" General {
+    set virtualedit=         " do not allow for cursor beyond last character
+    set nospell                       " spell checking off
+" }
+
+" Vim UI {
+    set scrolljump=0                " lines to scroll when cursor leaves screen
+    set scrolloff=0                 " minimum lines to keep above and below cursor
+" }

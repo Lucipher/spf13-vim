@@ -130,7 +130,7 @@
 
     " Ruby
         if count(g:spf13_bundle_groups, 'ruby')
-            Bundle 'rails.vim'
+            Bundle 'tpope/vim-rails'
         endif
 
     " Misc
@@ -171,8 +171,9 @@
             set undoreload=10000        "maximum number lines to save for undo on a buffer reload
         endif
         " Could use * rather than *.*, but I prefer to leave .files unsaved
-        au BufWinLeave *.* silent! mkview  "make vim save view (state) (folds, cursor, etc)
-        au BufWinEnter *.* silent! loadview "make vim load view (state) (folds, cursor, etc)
+        " !!They break the navigation command of rails.vim
+        "au BufWinLeave *.* silent! mkview  "make vim save view (state) (folds, cursor, etc)
+        "au BufWinEnter *.* silent! loadview "make vim load view (state) (folds, cursor, etc)
     " }
 " }
 

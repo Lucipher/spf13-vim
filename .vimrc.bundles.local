@@ -7,7 +7,6 @@ let g:spf13_bundle_groups=['programming', 'ruby', 'javascript', 'html', 'misc']
     Bundle 'kien/ctrlp.vim'
     Bundle 'vim-scripts/sessionman.vim'
     Bundle 'matchit.zip'
-    Bundle 'Lokaltog/vim-powerline'
     Bundle 'Lokaltog/vim-easymotion'
     Bundle 'jistr/vim-nerdtree-tabs'
     Bundle 'corntrace/bufexplorer'

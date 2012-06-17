@@ -300,8 +300,8 @@
     cmap cd. lcd %:p:h
 
     " visual shifting (does not exit Visual mode)
-    vnoremap < <gv
-    vnoremap > >gv
+    "vnoremap < <gv
+    "vnoremap > >gv
 
     " Fix home and end keybindings for screen, particularly on mac
     " - for some reason this fixes the arrow keys too. huh.
@@ -356,8 +356,8 @@
         " some convenient mappings
         inoremap <expr> <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
         inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
-        inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
-        inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
+        "inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
+        "inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
         inoremap <expr> <C-d>      pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<C-d>"
         inoremap <expr> <C-u>      pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<C-u>"
 

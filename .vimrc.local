@@ -13,3 +13,7 @@ colorscheme zenburn
     set scrolloff=0                 " minimum lines to keep above and below cursor
     set nofoldenable                  " no auto fold code
 " }
+
+" Formatting {
+    set wrap                      " wrap long lines
+" }

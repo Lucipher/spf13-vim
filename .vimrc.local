@@ -5,6 +5,7 @@ colorscheme zenburn
 
 " General {
     set virtualedit=         " do not allow for cursor beyond last character
+    set nospell              " spell checking off
 " }
 
 " Vim UI {

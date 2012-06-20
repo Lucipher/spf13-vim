@@ -356,8 +356,8 @@
         " some convenient mappings
         inoremap <expr> <Esc>      pumvisible() ? "\<C-e>" : "\<Esc>"
         inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
-        "inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
-        "inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
+        inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
+        inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
         inoremap <expr> <C-d>      pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<C-d>"
         inoremap <expr> <C-u>      pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<C-u>"
 
@@ -493,6 +493,10 @@
         inoremap <expr><C-g>     neocomplcache#undo_completion()
         inoremap <expr><C-l>     neocomplcache#complete_common_string()
 
+        inoremap <expr><Left>  neocomplcache#close_popup() . "\<Left>"
+        inoremap <expr><Right> neocomplcache#close_popup() . "\<Right>"
+        inoremap <expr><Up>    neocomplcache#close_popup() . "\<Up>"
+        inoremap <expr><Down>  neocomplcache#close_popup() . "\<Down>"
 
         " <CR>: close popup
         " <s-CR>: close popup and save indent.

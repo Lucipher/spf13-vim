@@ -445,7 +445,7 @@
      " }
 
      " ctrlp {
-        let g:ctrlp_working_path_mode = 2
+        let g:ctrlp_working_path_mode = 0
         nnoremap <silent> <D-t> :CtrlP<CR>
         nnoremap <silent> <D-r> :CtrlPMRU<CR>
         let g:ctrlp_custom_ignore = {
@@ -453,7 +453,7 @@
             \ 'file': '\.exe$\|\.so$\|\.dll$' }
      "}
 
-     " TagBar {
+     " TagBar 
         nnoremap <silent> <leader>tt :TagbarToggle<CR>
      "}
 

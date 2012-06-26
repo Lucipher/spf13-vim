@@ -8,9 +8,10 @@ endif
 " }
 
 " Vim UI {
-    if filereadable(expand("~/.vim/bundle/Zenburn/colors/zenburn.vim"))
-        colorscheme zenburn
-    endif
+    try
+        colorscheme jellybeans
+    catch //
+    endtry
     set scrolljump=0                " lines to scroll when cursor leaves screen
     set scrolloff=0                 " minimum lines to keep above and below cursor
     set nofoldenable                " no auto fold code

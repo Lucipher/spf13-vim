@@ -12,4 +12,5 @@ let g:spf13_bundle_groups=['programming', 'ruby', 'python', 'javascript', 'html'
 
     " Zenburn is a low-contrast color scheme for Vim. It's easy for your eyes
     " and designed to keep you in the zone for long programming sessions. 
-    Bundle 'jnurmine/Zenburn'
+    "Bundle 'jnurmine/Zenburn'
+    Bundle 'nanotech/jellybeans.vim'
